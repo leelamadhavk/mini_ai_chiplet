@@ -1,0 +1,17 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.backup.*
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.debug/
+# Licenses
+*.lic
+*.dmp
+hs_err_pid*

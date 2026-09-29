@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_mini_ai_chiplet_soc_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_mini_ai_chiplet_soc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="275.002 ns"></ZoomEndTime>
+      <Cursor1Time time="275.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="91"></NameColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="234" />
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/X_FLAT" type="array">
+      <obj_property name="ElementShortName">X_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/W_FLAT" type="array">
+      <obj_property name="ElementShortName">W_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/RD_ADDR" type="array">
+      <obj_property name="ElementShortName">RD_ADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_ADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/RESULT" type="array">
+      <obj_property name="ElementShortName">RESULT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/RESULT_VALID" type="logic">
+      <obj_property name="ElementShortName">RESULT_VALID</obj_property>
+      <obj_property name="ObjectShortName">RESULT_VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/BUSY" type="logic">
+      <obj_property name="ElementShortName">BUSY</obj_property>
+      <obj_property name="ObjectShortName">BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/NUM_INPUTS" type="array">
+      <obj_property name="ElementShortName">NUM_INPUTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_INPUTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/X_FLAT" type="array">
+      <obj_property name="ElementShortName">X_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/W_FLAT" type="array">
+      <obj_property name="ElementShortName">W_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/RD_ADDR" type="array">
+      <obj_property name="ElementShortName">RD_ADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_ADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/RESULT" type="array">
+      <obj_property name="ElementShortName">RESULT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/RESULT_VALID" type="logic">
+      <obj_property name="ElementShortName">RESULT_VALID</obj_property>
+      <obj_property name="ObjectShortName">RESULT_VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/BUSY" type="logic">
+      <obj_property name="ElementShortName">BUSY</obj_property>
+      <obj_property name="ObjectShortName">BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/NUM_INPUTS" type="array">
+      <obj_property name="ElementShortName">NUM_INPUTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_INPUTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/X_FLAT" type="array">
+      <obj_property name="ElementShortName">X_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/W_FLAT" type="array">
+      <obj_property name="ElementShortName">W_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/RD_ADDR" type="array">
+      <obj_property name="ElementShortName">RD_ADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_ADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/RESULT" type="array">
+      <obj_property name="ElementShortName">RESULT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/RESULT_VALID" type="logic">
+      <obj_property name="ElementShortName">RESULT_VALID</obj_property>
+      <obj_property name="ObjectShortName">RESULT_VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/BUSY" type="logic">
+      <obj_property name="ElementShortName">BUSY</obj_property>
+      <obj_property name="ObjectShortName">BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_valid" type="logic">
+      <obj_property name="ElementShortName">cpu_valid</obj_property>
+      <obj_property name="ObjectShortName">cpu_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_last" type="logic">
+      <obj_property name="ElementShortName">cpu_last</obj_property>
+      <obj_property name="ObjectShortName">cpu_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ai_ready" type="logic">
+      <obj_property name="ElementShortName">ai_ready</obj_property>
+      <obj_property name="ObjectShortName">ai_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_x" type="array">
+      <obj_property name="ElementShortName">cpu_x[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_x[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_w" type="array">
+      <obj_property name="ElementShortName">cpu_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_b" type="array">
+      <obj_property name="ElementShortName">cpu_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ai_valid" type="logic">
+      <obj_property name="ElementShortName">ai_valid</obj_property>
+      <obj_property name="ObjectShortName">ai_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ai_result" type="array">
+      <obj_property name="ElementShortName">ai_result[19:0]</obj_property>
+      <obj_property name="ObjectShortName">ai_result[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/NUM_INPUTS" type="array">
+      <obj_property name="ElementShortName">NUM_INPUTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_INPUTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/X_FLAT" type="array">
+      <obj_property name="ElementShortName">X_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/W_FLAT" type="array">
+      <obj_property name="ElementShortName">W_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/ready_in" type="logic">
+      <obj_property name="ElementShortName">ready_in</obj_property>
+      <obj_property name="ObjectShortName">ready_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/X_OUT" type="array">
+      <obj_property name="ElementShortName">X_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/W_OUT" type="array">
+      <obj_property name="ElementShortName">W_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/B_OUT" type="array">
+      <obj_property name="ElementShortName">B_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/last_out" type="logic">
+      <obj_property name="ElementShortName">last_out</obj_property>
+      <obj_property name="ObjectShortName">last_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/idx" type="array">
+      <obj_property name="ElementShortName">idx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/x_arr" type="array">
+      <obj_property name="ElementShortName">x_arr[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">x_arr[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/w_arr" type="array">
+      <obj_property name="ElementShortName">w_arr[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_arr[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/NUM_INPUTS" type="array">
+      <obj_property name="ElementShortName">NUM_INPUTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_INPUTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/STREAM" type="array">
+      <obj_property name="ElementShortName">STREAM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STREAM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/DONE" type="array">
+      <obj_property name="ElementShortName">DONE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/ready_out" type="logic">
+      <obj_property name="ElementShortName">ready_out</obj_property>
+      <obj_property name="ObjectShortName">ready_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/X_IN" type="array">
+      <obj_property name="ElementShortName">X_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/W_IN" type="array">
+      <obj_property name="ElementShortName">W_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/B_IN" type="array">
+      <obj_property name="ElementShortName">B_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/last_in" type="logic">
+      <obj_property name="ElementShortName">last_in</obj_property>
+      <obj_property name="ObjectShortName">last_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/Y_OUT" type="array">
+      <obj_property name="ElementShortName">Y_OUT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_OUT[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/acc" type="array">
+      <obj_property name="ElementShortName">acc[19:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/product" type="array">
+      <obj_property name="ElementShortName">product[15:0]</obj_property>
+      <obj_property name="ObjectShortName">product[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/acc_next" type="array">
+      <obj_property name="ElementShortName">acc_next[19:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_next[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/sum_final" type="array">
+      <obj_property name="ElementShortName">sum_final[19:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_final[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[19:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[19:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:15][19:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:15][19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x0" type="array">
+      <obj_property name="ElementShortName">x0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x1" type="array">
+      <obj_property name="ElementShortName">x1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x2" type="array">
+      <obj_property name="ElementShortName">x2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x3" type="array">
+      <obj_property name="ElementShortName">x3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w0" type="array">
+      <obj_property name="ElementShortName">w0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w1" type="array">
+      <obj_property name="ElementShortName">w1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w2" type="array">
+      <obj_property name="ElementShortName">w2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w3" type="array">
+      <obj_property name="ElementShortName">w3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/bias" type="array">
+      <obj_property name="ElementShortName">bias[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bias[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/X_FLAT" type="array">
+      <obj_property name="ElementShortName">X_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/W_FLAT" type="array">
+      <obj_property name="ElementShortName">W_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/RD_ADDR" type="array">
+      <obj_property name="ElementShortName">RD_ADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_ADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/RESULT" type="array">
+      <obj_property name="ElementShortName">RESULT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/RESULT_VALID" type="logic">
+      <obj_property name="ElementShortName">RESULT_VALID</obj_property>
+      <obj_property name="ObjectShortName">RESULT_VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/BUSY" type="logic">
+      <obj_property name="ElementShortName">BUSY</obj_property>
+      <obj_property name="ObjectShortName">BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_valid" type="logic">
+      <obj_property name="ElementShortName">cpu_valid</obj_property>
+      <obj_property name="ObjectShortName">cpu_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_last" type="logic">
+      <obj_property name="ElementShortName">cpu_last</obj_property>
+      <obj_property name="ObjectShortName">cpu_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ai_ready" type="logic">
+      <obj_property name="ElementShortName">ai_ready</obj_property>
+      <obj_property name="ObjectShortName">ai_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_x" type="array">
+      <obj_property name="ElementShortName">cpu_x[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_x[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_w" type="array">
+      <obj_property name="ElementShortName">cpu_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/cpu_b" type="array">
+      <obj_property name="ElementShortName">cpu_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ai_valid" type="logic">
+      <obj_property name="ElementShortName">ai_valid</obj_property>
+      <obj_property name="ObjectShortName">ai_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ai_result" type="array">
+      <obj_property name="ElementShortName">ai_result[19:0]</obj_property>
+      <obj_property name="ObjectShortName">ai_result[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/NUM_INPUTS" type="array">
+      <obj_property name="ElementShortName">NUM_INPUTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_INPUTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/X_FLAT" type="array">
+      <obj_property name="ElementShortName">X_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/W_FLAT" type="array">
+      <obj_property name="ElementShortName">W_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/ready_in" type="logic">
+      <obj_property name="ElementShortName">ready_in</obj_property>
+      <obj_property name="ObjectShortName">ready_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/X_OUT" type="array">
+      <obj_property name="ElementShortName">X_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/W_OUT" type="array">
+      <obj_property name="ElementShortName">W_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/B_OUT" type="array">
+      <obj_property name="ElementShortName">B_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/last_out" type="logic">
+      <obj_property name="ElementShortName">last_out</obj_property>
+      <obj_property name="ObjectShortName">last_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/idx" type="array">
+      <obj_property name="ElementShortName">idx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/x_arr" type="array">
+      <obj_property name="ElementShortName">x_arr[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">x_arr[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/w_arr" type="array">
+      <obj_property name="ElementShortName">w_arr[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_arr[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/NUM_INPUTS" type="array">
+      <obj_property name="ElementShortName">NUM_INPUTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_INPUTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/STREAM" type="array">
+      <obj_property name="ElementShortName">STREAM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STREAM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/DONE" type="array">
+      <obj_property name="ElementShortName">DONE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/ready_out" type="logic">
+      <obj_property name="ElementShortName">ready_out</obj_property>
+      <obj_property name="ObjectShortName">ready_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/X_IN" type="array">
+      <obj_property name="ElementShortName">X_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/W_IN" type="array">
+      <obj_property name="ElementShortName">W_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/B_IN" type="array">
+      <obj_property name="ElementShortName">B_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/last_in" type="logic">
+      <obj_property name="ElementShortName">last_in</obj_property>
+      <obj_property name="ObjectShortName">last_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/Y_OUT" type="array">
+      <obj_property name="ElementShortName">Y_OUT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_OUT[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/acc" type="array">
+      <obj_property name="ElementShortName">acc[19:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/product" type="array">
+      <obj_property name="ElementShortName">product[15:0]</obj_property>
+      <obj_property name="ObjectShortName">product[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/acc_next" type="array">
+      <obj_property name="ElementShortName">acc_next[19:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_next[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/sum_final" type="array">
+      <obj_property name="ElementShortName">sum_final[19:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_final[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[19:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[19:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:15][19:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:15][19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/X_FLAT" type="array">
+      <obj_property name="ElementShortName">X_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/W_FLAT" type="array">
+      <obj_property name="ElementShortName">W_FLAT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_FLAT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/BIAS" type="array">
+      <obj_property name="ElementShortName">BIAS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/ready_in" type="logic">
+      <obj_property name="ElementShortName">ready_in</obj_property>
+      <obj_property name="ObjectShortName">ready_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/X_OUT" type="array">
+      <obj_property name="ElementShortName">X_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/W_OUT" type="array">
+      <obj_property name="ElementShortName">W_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/B_OUT" type="array">
+      <obj_property name="ElementShortName">B_OUT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_OUT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/last_out" type="logic">
+      <obj_property name="ElementShortName">last_out</obj_property>
+      <obj_property name="ObjectShortName">last_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/idx" type="array">
+      <obj_property name="ElementShortName">idx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/x_arr" type="array">
+      <obj_property name="ElementShortName">x_arr[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">x_arr[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/w_arr" type="array">
+      <obj_property name="ElementShortName">w_arr[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_arr[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/NUM_INPUTS" type="array">
+      <obj_property name="ElementShortName">NUM_INPUTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_INPUTS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/STREAM" type="array">
+      <obj_property name="ElementShortName">STREAM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STREAM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/CPU/DONE" type="array">
+      <obj_property name="ElementShortName">DONE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/ready_out" type="logic">
+      <obj_property name="ElementShortName">ready_out</obj_property>
+      <obj_property name="ObjectShortName">ready_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/X_IN" type="array">
+      <obj_property name="ElementShortName">X_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/W_IN" type="array">
+      <obj_property name="ElementShortName">W_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">W_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/B_IN" type="array">
+      <obj_property name="ElementShortName">B_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_IN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/last_in" type="logic">
+      <obj_property name="ElementShortName">last_in</obj_property>
+      <obj_property name="ObjectShortName">last_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/Y_OUT" type="array">
+      <obj_property name="ElementShortName">Y_OUT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_OUT[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/acc" type="array">
+      <obj_property name="ElementShortName">acc[19:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/product" type="array">
+      <obj_property name="ElementShortName">product[15:0]</obj_property>
+      <obj_property name="ObjectShortName">product[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/acc_next" type="array">
+      <obj_property name="ElementShortName">acc_next[19:0]</obj_property>
+      <obj_property name="ObjectShortName">acc_next[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/sum_final" type="array">
+      <obj_property name="ElementShortName">sum_final[19:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_final[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/AI/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[19:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[19:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/wr_ptr" type="array">
+      <obj_property name="ElementShortName">wr_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:15][19:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:15][19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/DUT/MEM/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x0" type="array">
+      <obj_property name="ElementShortName">x0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x1" type="array">
+      <obj_property name="ElementShortName">x1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x2" type="array">
+      <obj_property name="ElementShortName">x2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/x3" type="array">
+      <obj_property name="ElementShortName">x3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w0" type="array">
+      <obj_property name="ElementShortName">w0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w1" type="array">
+      <obj_property name="ElementShortName">w1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w2" type="array">
+      <obj_property name="ElementShortName">w2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/w3" type="array">
+      <obj_property name="ElementShortName">w3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mini_ai_chiplet_soc/run_inference/bias" type="array">
+      <obj_property name="ElementShortName">bias[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bias[7:0]</obj_property>
+   </wvobject>
+</wave_config>
